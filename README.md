@@ -164,14 +164,11 @@ Runtime yang digunakan adalah **Node.js v18+** dengan protokol **@whiskeysockets
 
 ```bash
 git clone <repo-url>
-cd dropbyte-msg
+cd repo-name
 npm install
 node index.js
 ```
 
-Saat pertama jalan, masukkan nomor WA untuk mendapat **pairing code**. Lalu masukkan kode di WhatsApp melalui Pengaturan → Perangkat Tertaut → Tautkan dengan Nomor Telepon.
-
-Setelah pairing berhasil, restart bot sekali agar pesan mulai terbaca.
 
 ---
 
@@ -179,7 +176,7 @@ Setelah pairing berhasil, restart bot sekali agar pesan mulai terbaca.
 
 ```bash
 npm install -g pm2
-pm2 start index.js --name dropbyte-msg
+pm2 start index.js --name repo-name
 pm2 save && pm2 startup
 ```
 
@@ -258,17 +255,15 @@ Buat subfolder baru di `plugins/`. Otomatis terbaca dan muncul di menu.
 
 ## Changelog
 
-**DropByte MSG v3.0.0** *(2025–2026, current)*
+**DropByte MSG v3.0.0** *(2026)*
 Rebranding, arsitektur hybrid, modul pajak & akuntansi, tools mahasiswa, RPG, menfess, hot reload, terminal dashboard canvas.
 
-**Shota Base v2.x.x** *(2024)*
-Sistem plugin modular, migrasi ke pairing code, multi-owner, database SQLite.
+**Shota Base v2.x.x**
 
 **v1.x.x** *(2023)*
 Sistem case switch, database JSON, fitur dasar sticker & ping.
 
 **Awal** *(2022)*
-Eksperimen pertama dengan Baileys. Nama dan struktur sering berganti.
 
 ---
 
