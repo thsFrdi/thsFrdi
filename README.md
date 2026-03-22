@@ -35,10 +35,10 @@ Bot ini masih dalam tahap pengembangan aktif. Beberapa fitur mungkin belum sempu
 ## Perjalanan
 
 ```
-2022  Awal berdiri — eksperimen pertama, nama & sistem sering berganti
-2023  Mulai stabil — sistem plugin diperkenalkan
-2024  Refactor besar — arsitektur hybrid, database lebih terstruktur  
-2025  Penambahan modul pajak, akuntansi, tools mahasiswa
+2022  Awal Pengembangan — eksperimen pertama, nama & sistem sering berganti
+2023  Penstabilan — sistem plugin diperkenalkan
+2024  Refactor — arsitektur hybrid, database lebih terstruktur  
+2026  Penambahan modul tax, accountan, tools mahasiswa
 2026  Rebranding → DropByte MSG, pengembangan lanjutan
 ```
 
@@ -141,7 +141,7 @@ dropbyte-msg/
 
 ---
 
-### RPG
+### RPG For Fun
 
 | Perintah | Cooldown | Keterangan |
 |---|---|---|
@@ -159,7 +159,7 @@ dropbyte-msg/
 
 ---
 
-### Perpajakan
+### Tax menu
 
 | Perintah | Keterangan |
 |---|---|
@@ -174,7 +174,7 @@ dropbyte-msg/
 
 ---
 
-### Akuntansi & Perbankan
+### Accounting & Perbankan
 
 | Perintah | Keterangan |
 |---|---|
