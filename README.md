@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/o2001z.png" style="border-radius:18px"/>
+<img src="[https://files.catbox.moe/o2001z.png](https://files.catbox.moe/ejkw30.png)" style="border-radius:18px"/>
 <br><br>
 
 # DropByte MSG
